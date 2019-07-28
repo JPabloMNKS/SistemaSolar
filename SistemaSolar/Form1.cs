@@ -27,75 +27,68 @@ namespace SistemaSolar
             textBox1.Text = e.X.ToString();
             textBox2.Text = e.Y.ToString();
 
-            if(e.X >= 47 && e.X <= 131 && e.Y >= 183 && e.Y <= 256)
+            if(e.X >= 0 && e.X <= 82 && e.Y >= 244 && e.Y <= 447)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "SOL";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 153 && e.X <= 171 && e.Y >= 215 && e.Y <= 230)
+            else if (e.X >= 138 && e.X <= 171 && e.Y >= 350 && e.Y <= 375)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "MERCURIO";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 193 && e.X <= 232 && e.Y >= 207 && e.Y <= 236)
+            else if (e.X >= 198 && e.X <= 255 && e.Y >= 340 && e.Y <= 383)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "VENUS";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 256 && e.X <= 301 && e.Y >= 203 && e.Y <= 236)
+            else if (e.X >= 288 && e.X <= 355 && e.Y >= 336 && e.Y <= 384)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "TIERRA";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 322 && e.X <= 361 && e.Y >= 207 && e.Y <= 235)
+            else if (e.X >= 380 && e.X <= 430 && e.Y >= 345 && e.Y <= 380)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "MARTE";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 386 && e.X <= 473 && e.Y >= 188 && e.Y <= 255)
+            else if (e.X >= 508 && e.X <= 665 && e.Y >= 285 && e.Y <= 400)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "JUPITER";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 510 && e.X <= 584 && e.Y >= 197 && e.Y <= 251)
+            else if (e.X >= 765 && e.X <= 906 && e.Y >= 297 && e.Y <= 403)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "SATURNO";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 616 && e.X <= 668 && e.Y >= 201 && e.Y <= 241)
+            else if (e.X >= 1022 && e.X <= 1124 && e.Y >= 315 && e.Y <= 387)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "URANO";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
             }
-            else if (e.X >= 693 && e.X <= 736 && e.Y >= 206 && e.Y <= 240)
+            else if (e.X >= 1176 && e.X <= 1268 && e.Y >= 309 && e.Y <= 381)
             {
                 this.Cursor = Cursors.Hand;
                 label1.Visible = true;
                 label1.Text = "NEPTUNO";
-                label1.Location = new Point(e.X - 25, e.Y - 25);
-            }
-            else if (e.X >= 765 && e.X <= 785 && e.Y >= 210 && e.Y <= 230)
-            {
-                this.Cursor = Cursors.Hand;
-                label1.Visible = true;
-                label1.Text = "PLUTON";
-                label1.Location = new Point(e.X - 25, e.Y - 25);
+                label1.Location = new Point(e.X + 25, e.Y + 25);
             }
             else
             {
@@ -104,6 +97,11 @@ namespace SistemaSolar
             }
         }
 
-
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            
+        }
     }
 }
