@@ -8,3 +8,13 @@ E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.CoreCompileInputs.cache
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.exe
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.pdb
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Form2.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Sol.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Jupiter.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Marte.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Mercurio.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Saturno.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Tierra.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Urano.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Venus.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Neptuno.resources

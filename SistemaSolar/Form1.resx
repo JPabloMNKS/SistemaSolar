@@ -1287,7 +1287,7 @@
     <value>5</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1105, 644</value>
+    <value>1183, 691</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 34</value>
@@ -1385,8 +1385,11 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>909, 635</value>
+    <value>1183, 440</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -1395,7 +1398,7 @@
     <value>5</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>button2</value>
+    <value>Ver</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -1416,10 +1419,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1411, 776</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>1399, 764</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

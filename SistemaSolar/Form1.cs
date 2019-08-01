@@ -100,8 +100,57 @@ namespace SistemaSolar
         private void Button2_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
-            form2.Show();
-            
+            form2.Show();  
+        }
+
+
+        private void PictureBox1_MouseClick_1(object sender, MouseEventArgs e)
+        {
+            if (e.X >= 0 && e.X <= 82 && e.Y >= 244 && e.Y <= 447)
+            {
+                Sol sol = new Sol();
+                sol.Show();
+            }
+            else if (e.X >= 138 && e.X <= 171 && e.Y >= 350 && e.Y <= 375)
+            {
+                Mercurio mercurio = new Mercurio();
+                mercurio.Show();
+            }
+            else if (e.X >= 198 && e.X <= 255 && e.Y >= 340 && e.Y <= 383)
+            {
+                Venus venus = new Venus();
+                venus.Show();
+            }
+            else if (e.X >= 288 && e.X <= 355 && e.Y >= 336 && e.Y <= 384)
+            {
+                Tierra tierra = new Tierra();
+                tierra.Show();
+            }
+            else if (e.X >= 380 && e.X <= 430 && e.Y >= 345 && e.Y <= 380)
+            {
+                Marte marte = new Marte();
+                marte.Show();
+            }
+            else if (e.X >= 508 && e.X <= 665 && e.Y >= 285 && e.Y <= 400)
+            {
+                Jupiter jupiter = new Jupiter();
+                jupiter.Show();
+            }
+            else if (e.X >= 765 && e.X <= 906 && e.Y >= 297 && e.Y <= 403)
+            {
+                Saturno saturno = new Saturno();
+                saturno.Show();
+            }
+            else if (e.X >= 1022 && e.X <= 1124 && e.Y >= 315 && e.Y <= 387)
+            {
+                Urano urano = new Urano();
+                urano.Show();
+            }
+            else if (e.X >= 1176 && e.X <= 1268 && e.Y >= 309 && e.Y <= 381)
+            {
+                Neptuno neptuno = new Neptuno();
+                neptuno.Show();
+            }
         }
     }
 }

@@ -58,10 +58,79 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jupiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jupiter.Designer.cs">
+      <DependentUpon>Jupiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marte.Designer.cs">
+      <DependentUpon>Marte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mercurio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mercurio.Designer.cs">
+      <DependentUpon>Mercurio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neptuno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neptuno.Designer.cs">
+      <DependentUpon>Neptuno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saturno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saturno.Designer.cs">
+      <DependentUpon>Saturno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sol.Designer.cs">
+      <DependentUpon>Sol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tierra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tierra.Designer.cs">
+      <DependentUpon>Tierra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urano.Designer.cs">
+      <DependentUpon>Urano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venus.Designer.cs">
+      <DependentUpon>Venus.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jupiter.resx">
+      <DependentUpon>Jupiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marte.resx">
+      <DependentUpon>Marte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mercurio.resx">
+      <DependentUpon>Mercurio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neptuno.resx">
+      <DependentUpon>Neptuno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,6 +141,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Saturno.resx">
+      <DependentUpon>Saturno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sol.resx">
+      <DependentUpon>Sol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tierra.resx">
+      <DependentUpon>Tierra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urano.resx">
+      <DependentUpon>Urano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venus.resx">
+      <DependentUpon>Venus.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
