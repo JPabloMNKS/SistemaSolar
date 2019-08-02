@@ -17,7 +17,7 @@ namespace SistemaSolar
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
