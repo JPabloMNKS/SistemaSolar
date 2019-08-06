@@ -17,6 +17,29 @@ namespace SistemaSolar
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+        }
+
+        public static bool ProbarConexion()
+        {
+            System.Uri Url = new System.Uri("http://www.google.com/");
+            System.Net.WebRequest webRequest;
+            webRequest = System.Net.WebRequest.Create(Url);
+            System.Net.WebResponse objResp;
+            try
+            {
+                objResp = webRequest.GetResponse();
+                objResp.Close();
+                webRequest = null;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine(ex);
+                webRequest = null;
+                return false;
+            }
+
         }
     }
 }

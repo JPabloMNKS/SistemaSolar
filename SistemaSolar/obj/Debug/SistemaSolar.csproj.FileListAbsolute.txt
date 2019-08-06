@@ -18,3 +18,8 @@ E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Urano.resources
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Venus.resources
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Neptuno.resources
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.ResolveComReference.cache
