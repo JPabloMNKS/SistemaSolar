@@ -15,7 +15,7 @@ namespace SistemaSolar
         public Saturno()
         {
             InitializeComponent();
-            if (Program.ProbarConexion() == false)
+            if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;
                 btn.Visible = false;

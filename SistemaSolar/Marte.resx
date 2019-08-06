@@ -2196,15 +2196,13 @@
   <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>En los tiempos más antiguos se presumía de que el planeta Mercurio estaba siempre de cara al Sol. De una forma similar a la Luna con la Tierra, por lo que su tiempo de rotación era similar al tiempo de traslación. Tarda 88 días solamente en dar una vuelta al Sol. No obstante, en el año 1965 fueron enviados unos impulsos a un radar con los que se pudo determinar que su tiempo de rotación son 58 días.
+    <value>El hombre siempre ha tenido una mirada curiosa hacia Marte, el “planeta rojo”. Marte fue uno de los primeros planetas en ser observados a través de un telescopio y desde mediados del siglo XIX algunos científicos comenzaron a especular la existencia de vida extraterrestre e incluso el astrónomo Giovanni Schiaparelli describió la presencia de canales diseñados para transportar agua, supuestamente útiles para alguna civilización marciana. Pero hasta ahora, la evidencia de vida en Marte es prácticamente nula.
 
-Esto hace que dos terceras partes de su tiempo sea traslación. Esta situación se denomina resonancia orbital. Al tratarse de un planeta con una órbita mucho menor que el de la Tierra, hace que su cercanía al Sol sea mucha. Adquirió la categoría de planeta más pequeño de los ocho del sistema solar. Antes, Plutón era el más pequeño, pero tras considerarlo como planetoide es Mercurio el reemplazo.
+Es uno de los 4 planetas telúricos (rocosos). Su parecido con la Tierra influyó en la creencia de vida marciana, pues su superficie presenta formaciones permanentes y casquetes polares que en realidad no están conformados por verdadero hielo, sino por una capa de escarcha o probablemente hielo seco. 
 
-A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra gracias a su cercanía con el Sol. Es difícil de identificar por su brillo, pero se puede apreciar muy bien en el atardecer con la puesta de sol a oeste y justamente en el horizonte se puede ver con facilidad.
-</value>
+Cuando la nave Marine 4 sobrevoló Marte, se observaron manchas claras y oscuras, así que los científicos especularon la presencia de agua en la superficie. En la actualidad, la comunidad científica presume que hace 3.5 millones de años hubo inundaciones severas en el planeta. En 2015, la NASA por fin halló pruebas de agua líquida salada.
+
+Es el segundo planeta más pequeño del Sistema Solar, sólo superado por Mercurio. Debido a la inclinación de su eje de rotación, experimenta estaciones como la Tierra que varían en duración debido a su órbita elíptica. No tiene anillos pero sí 2 satélites: Fobos y Deimos, descubiertos en 1877.</value>
   </data>
 </root>

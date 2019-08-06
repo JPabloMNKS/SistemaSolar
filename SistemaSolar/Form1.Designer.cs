@@ -68,7 +68,7 @@
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Name = "label1";
             // 

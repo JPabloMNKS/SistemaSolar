@@ -2833,27 +2833,20 @@
         phkhdLpdLr0ej//Z
 </value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>El Sol es la estrella más cercana a la Tierra y el mayor astro del Sistema Solar.
-Forma parte de la galaxia que llamamos Vía Láctea. 
-Las estrellas son los únicos cuerpos del Universo que emiten luz.  El Sol, esa estrella cercana, está
-situado a unos 150 millones de kilómetros de la Tierra y es, con mucho, el objeto celeste más 
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>El Sol es la estrella más cercana a la Tierra y el mayor astro del Sistema Solar. Forma parte de la galaxia que llamamos Vía Láctea. 
+Las estrellas son los únicos cuerpos del Universo que emiten luz.  El Sol, esa estrella cercana, está situado a unos 150 millones de kilómetros de la Tierra y es, con mucho, el objeto celeste más 
 brillante que podemos ver.
-</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>El Sol contiene más del 99,8% de toda la materia del Sistema Solar. De hecho, "casi todo" el Sistema
-Solar está en el Sol. Ejerce una fuerte atracción gravitatoria sobre los planetas y los hace girar a su
+
+El Sol contiene más del 99,8% de toda la materia del Sistema Solar. De hecho, "casi todo" el Sistema Solar está en el Sol. Ejerce una fuerte atracción gravitatoria sobre los planetas y los hace girar a su
 alrededor. 
 Junto con los asteroides, meteoroides, cometas y polvo forman el Sistema Solar.
 
-Todo el Sistema Solar, incluido el Sol, gira alrededor del centro de la Vía Láctea, nuestra galaxia, 
-situado a unos 25.800 años luz de distancia. Da una vuelta completa cada 225 millones de años.
+Todo el Sistema Solar, incluido el Sol, gira alrededor del centro de la Vía Láctea, nuestra galaxia, situado a unos 25.800 años luz de distancia. Da una vuelta completa cada 225 millones de años.
 En nuestros tiempos se mueve hacia la constelación de Hércules a 19 Km./s.
 
-Nuestra estrella particular se formó hace unos 4.600 millones de años y tiene combustible para 
-otros 5.000 millones más. Después, comenzará a hacerse más y más grande, hasta convertirse en
-una estrella gigante roja. Finalmente, se hundirá por su propio peso y se convertirá en una enana
-blanca, que puede tardar hasta un trillón de años en enfriarse.</value>
+Nuestra estrella particular se formó hace unos 4.600 millones de años y tiene combustible para otros 5.000 millones más. Después, comenzará a hacerse más y más grande, hasta convertirse en
+una estrella gigante roja. Finalmente, se hundirá por su propio peso y se convertirá en una enana blanca, que puede tardar hasta un trillón de años en enfriarse.
+</value>
   </data>
 </root>

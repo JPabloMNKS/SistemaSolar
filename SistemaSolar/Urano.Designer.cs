@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Urano));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -41,9 +42,11 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn = new System.Windows.Forms.Button();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -66,6 +69,16 @@
             this.panel3.Controls.Add(this.button2);
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // panel2
             // 
@@ -94,18 +107,21 @@
             resources.ApplyResources(this.pictureBox10, "pictureBox10");
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.Neptuno);
             // 
             // pictureBox9
             // 
             resources.ApplyResources(this.pictureBox9, "pictureBox9");
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.Saturno);
             // 
             // pictureBox8
             // 
             resources.ApplyResources(this.pictureBox8, "pictureBox8");
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.Jupiter);
             // 
             // pictureBox7
             // 
@@ -118,6 +134,7 @@
             resources.ApplyResources(this.pictureBox6, "pictureBox6");
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.Marte);
             // 
             // pictureBox5
             // 
@@ -125,6 +142,7 @@
             resources.ApplyResources(this.pictureBox5, "pictureBox5");
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.Tierra);
             // 
             // pictureBox4
             // 
@@ -132,34 +150,30 @@
             resources.ApplyResources(this.pictureBox4, "pictureBox4");
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.Venus);
             // 
             // pictureBox3
             // 
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.Mercurio);
             // 
             // pictureBox2
             // 
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.Sol);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.panel1.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel1.Controls.Add(this.richTextBox1);
+            this.panel1.Controls.Add(this.btn);
+            this.panel1.Controls.Add(this.webBrowser1);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Name = "panel1";
             // 
             // pictureBox1
@@ -167,6 +181,26 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // btn
+            // 
+            resources.ApplyResources(this.btn, "btn");
+            this.btn.Name = "btn";
+            this.btn.UseVisualStyleBackColor = true;
+            // 
+            // webBrowser1
+            // 
+            resources.ApplyResources(this.webBrowser1, "webBrowser1");
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/Mercurio_(planeta)", System.UriKind.Absolute);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.richTextBox1.Name = "richTextBox1";
             // 
             // Urano
             // 
@@ -214,5 +248,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

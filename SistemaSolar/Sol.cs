@@ -15,7 +15,7 @@ namespace SistemaSolar
         public Sol()
         {
             InitializeComponent();
-            if (Program.ProbarConexion() == false)
+            if(Program.conectado == "no")
             {
                 webBrowser1.Visible = false;
                 button2.Visible = false;
@@ -82,6 +82,5 @@ namespace SistemaSolar
             neptuno.Show();
             this.Close();
         }
-
     }
 }

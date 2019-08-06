@@ -14,13 +14,13 @@ namespace SistemaSolar
         [STAThread]
         static void Main()
         {
+            ProbarConexion();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
         }
-
-        public static bool ProbarConexion()
+        public static string conectado;
+        public static void ProbarConexion()
         {
             System.Uri Url = new System.Uri("http://www.google.com/");
             System.Net.WebRequest webRequest;
@@ -31,15 +31,14 @@ namespace SistemaSolar
                 objResp = webRequest.GetResponse();
                 objResp.Close();
                 webRequest = null;
-                return true;
+                conectado = "si";
             }
             catch (Exception ex)
             {
                 System.Console.WriteLine(ex);
                 webRequest = null;
-                return false;
+                conectado = "no";
             }
-
         }
     }
 }
