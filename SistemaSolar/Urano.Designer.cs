@@ -43,10 +43,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btn = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -176,11 +176,13 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Name = "panel1";
             // 
-            // pictureBox1
+            // richTextBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.richTextBox1.Name = "richTextBox1";
             // 
             // btn
             // 
@@ -194,13 +196,11 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/Mercurio_(planeta)", System.UriKind.Absolute);
             // 
-            // richTextBox1
+            // pictureBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.richTextBox1, "richTextBox1");
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.richTextBox1.Name = "richTextBox1";
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // Urano
             // 

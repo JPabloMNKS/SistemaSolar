@@ -1524,11 +1524,17 @@
     <value>True</value>
   </metadata>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>En los tiempos más antiguos se presumía de que el planeta Mercurio estaba siempre de cara al Sol. De una forma similar a la Luna con la Tierra, por lo que su tiempo de rotación era similar al tiempo de traslación. Tarda 88 días solamente en dar una vuelta al Sol. No obstante, en el año 1965 fueron enviados unos impulsos a un radar con los que se pudo determinar que su tiempo de rotación son 58 días.
+    <value>Hablar de la Tierra implica un número indefinido de palabras y una cantidad de tiempo impresionante. Se sabe mucho sobre ella, y aún así falta demasiado por aprender. Pero es posible condensar lo más importante que de ella se conoce.
 
-Esto hace que dos terceras partes de su tiempo sea traslación. Esta situación se denomina resonancia orbital. Al tratarse de un planeta con una órbita mucho menor que el de la Tierra, hace que su cercanía al Sol sea mucha. Adquirió la categoría de planeta más pequeño de los ocho del sistema solar. Antes, Plutón era el más pequeño, pero tras considerarlo como planetoide es Mercurio el reemplazo.
+La Tierra es el hogar de los seres vivos y se formó hace más de 4,500 millones de años. Es el quinto planeta más grande del Sistema Solar y el tercero más cercano al Sol; su distancia promedio a éste es de unos 149’597,890 kilómetros o prácticamente 150 millones de kilómetros. Como otros planetas, presenta una forma esférica y ligeramente achatada en los polos. Su diámetro es apenas un poco más grande que el de Venus. Es un planeta sin anillos pero con un satélite natural, la Luna.
 
-A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra gracias a su cercanía con el Sol. Es difícil de identificar por su brillo, pero se puede apreciar muy bien en el atardecer con la puesta de sol a oeste y justamente en el horizonte se puede ver con facilidad.
+Aunque normalmente se le representa como una esfera en posición vertical, su eje está ligeramente inclinado a unos 23.45°. La consecuencia de esta inclinación son las estaciones: primavera, verano, otoño e invierno pues durante una parte del año el hemisferio norte se inclina hacia el Sol por lo que en el norte es verano y en el sur es invierno. Durante la otra mitad del año esta situación se invierte.
+
+La Tierra orbita alrededor del Sol, la estrella que provee el nivel de luz y calor ideales para la vida. En términos básicos, el planeta experimenta dos movimientos: rotación y traslación. El primero es efectuado alrededor del eje polar en el sentido contrario al de las manecillas del reloj, es decir, de oeste a este. El movimiento de traslación es el que realiza alrededor del Sol en una órbita casi circular.
+
+Un día en la Tierra tiene una duración de 24 horas, pero si se trata de ser muy específicos, la NASA estima esta duración en 23.934 horas o 0.99726968 días terrestres. Esto es el período de rotación sideral. Ahora bien, 1 año terrestre dura 365.26 días, el tiempo que tarda en recorrer una órbita completa alrededor del Sol.
+
+Los movimientos de la Tierra y las condiciones en que se encuentra en el Sistema Solar inciden en una serie de fenómenos increíbles y naturales: erupciones volcánicas, tormentas, terremotos, estaciones, eclipses, mareas y muchas más. Es un planeta tremendamente activo y en constante cambio.
 </value>
   </data>
   <data name="pictureBox12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

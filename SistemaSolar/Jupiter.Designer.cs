@@ -43,10 +43,14 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btn = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -68,9 +72,9 @@
             this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 670);
+            this.panel1.Location = new System.Drawing.Point(0, 698);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1386, 100);
+            this.panel1.Size = new System.Drawing.Size(1386, 72);
             this.panel1.TabIndex = 0;
             // 
             // button2
@@ -80,7 +84,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(1181, 26);
+            this.button2.Location = new System.Drawing.Point(1181, 17);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 33);
             this.button2.TabIndex = 3;
@@ -105,7 +109,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(1131, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(255, 670);
+            this.panel2.Size = new System.Drawing.Size(255, 698);
             this.panel2.TabIndex = 5;
             // 
             // pictureBox11
@@ -221,6 +225,10 @@
             // 
             this.panel3.AutoScroll = true;
             this.panel3.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel3.Controls.Add(this.richTextBox4);
+            this.panel3.Controls.Add(this.richTextBox3);
+            this.panel3.Controls.Add(this.richTextBox2);
+            this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.richTextBox1);
             this.panel3.Controls.Add(this.btn);
             this.panel3.Controls.Add(this.webBrowser1);
@@ -228,8 +236,41 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1131, 670);
+            this.panel3.Size = new System.Drawing.Size(1131, 698);
             this.panel3.TabIndex = 6;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.richTextBox1.Location = new System.Drawing.Point(46, 455);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox1.Size = new System.Drawing.Size(1023, 450);
+            this.richTextBox1.TabIndex = 9;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // btn
+            // 
+            this.btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn.Location = new System.Drawing.Point(520, 1575);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(75, 23);
+            this.btn.TabIndex = 8;
+            this.btn.Text = "button1";
+            this.btn.UseVisualStyleBackColor = true;
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(67, 933);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(970, 625);
+            this.webBrowser1.TabIndex = 7;
+            this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)", System.UriKind.Absolute);
             // 
             // pictureBox1
             // 
@@ -241,37 +282,57 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btn
+            // richTextBox4
             // 
-            this.btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn.Location = new System.Drawing.Point(559, 1685);
-            this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(75, 23);
-            this.btn.TabIndex = 8;
-            this.btn.Text = "button1";
-            this.btn.UseVisualStyleBackColor = true;
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.ForeColor = System.Drawing.Color.FloralWhite;
+            this.richTextBox4.Location = new System.Drawing.Point(713, 238);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox4.Size = new System.Drawing.Size(287, 162);
+            this.richTextBox4.TabIndex = 24;
+            this.richTextBox4.Text = "142 984 km\n6,41 x 10^10 km² \n1,4313 × 10^15 km³\n1,899 × 10^27 kg\n1336 kg/m³ ";
             // 
-            // webBrowser1
+            // richTextBox3
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(106, 1043);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(970, 625);
-            this.webBrowser1.TabIndex = 7;
-            this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/Mercurio_(planeta)", System.UriKind.Absolute);
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.ForeColor = System.Drawing.Color.FloralWhite;
+            this.richTextBox3.Location = new System.Drawing.Point(524, 238);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox3.Size = new System.Drawing.Size(172, 162);
+            this.richTextBox3.TabIndex = 23;
+            this.richTextBox3.Text = "Diametro   \nSuperficie  \nVolumen   \nMasa          \nDensidad   ";
             // 
-            // richTextBox1
+            // richTextBox2
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.richTextBox1.Location = new System.Drawing.Point(46, 455);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox1.Size = new System.Drawing.Size(1023, 363);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.FloralWhite;
+            this.richTextBox2.Location = new System.Drawing.Point(524, 176);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(462, 56);
+            this.richTextBox2.TabIndex = 22;
+            this.richTextBox2.Text = "Júpiter, el planeta más grande";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FloralWhite;
+            this.label1.Location = new System.Drawing.Point(492, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(420, 124);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "JUPITER";
             // 
             // Jupiter
             // 
@@ -325,5 +386,9 @@
         private System.Windows.Forms.Button btn;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label1;
     }
 }

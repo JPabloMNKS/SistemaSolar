@@ -1524,11 +1524,15 @@
     <value>True</value>
   </metadata>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>En los tiempos más antiguos se presumía de que el planeta Mercurio estaba siempre de cara al Sol. De una forma similar a la Luna con la Tierra, por lo que su tiempo de rotación era similar al tiempo de traslación. Tarda 88 días solamente en dar una vuelta al Sol. No obstante, en el año 1965 fueron enviados unos impulsos a un radar con los que se pudo determinar que su tiempo de rotación son 58 días.
+    <value>El primer planeta gaseoso se encuentra después del cinturón de asteroides y es Júpiter. Es el planeta más grande del Sistema Solar y el quinto en distancia al Sol. Se formó a partir del material que quedó después de la formación del “astro rey”.
 
-Esto hace que dos terceras partes de su tiempo sea traslación. Esta situación se denomina resonancia orbital. Al tratarse de un planeta con una órbita mucho menor que el de la Tierra, hace que su cercanía al Sol sea mucha. Adquirió la categoría de planeta más pequeño de los ocho del sistema solar. Antes, Plutón era el más pequeño, pero tras considerarlo como planetoide es Mercurio el reemplazo.
+Es una gigantesca bola de gas achatada sin superficie sólida pero probablemente con un núcleo interno sólido. Algunos científicos se refieren a este planeta como una estrella fallida, que no creció lo suficiente para ser catalogada como tal. Pese a su tamaño, es menos denso que el Sol y casi 4 veces menos denso que los planetas rocosos (Mercurio, Venus, Tierra y Marte).
 
-A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra gracias a su cercanía con el Sol. Es difícil de identificar por su brillo, pero se puede apreciar muy bien en el atardecer con la puesta de sol a oeste y justamente en el horizonte se puede ver con facilidad.
+Visto desde un telescopio parece papel jaspeado, con múltiples bandas paralelas oscuras sobre un fondo amarillento, nubes irregulares y manchas claras y oscuras que interrumpen la continuidad de las bandas. Estas características sugieren una gran agitación atmosférica. Una de estas turbulencias es la Gran Mancha Roja, una tormenta que forma parte de la envoltura gaseosa del planeta cuyo diámetro mide el doble del de la Tierra.
+
+Júpiter tiene unos 50 satélites conocidos pero otros 17 cuerpos celestes están en espera de ser confirmados como satélites. Sus satélites más grandes son Ío, Europa, Ganímedes y Calisto, también llamados satélites galileanos en honor a su descubridor, Galileo Galilei.
+
+Tiene un período de rotación sideral (duración de 1 día)  muy rápido: 9.92496 horas o 0.41354 días. En términos terrestres, por supuesto. Realiza una órbita completa alrededor del Sol en unos 12 años terrestres, es decir, en 4,333 días.
 </value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

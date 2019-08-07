@@ -2420,15 +2420,14 @@
   <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>En los tiempos más antiguos se presumía de que el planeta Mercurio estaba siempre de cara al Sol. De una forma similar a la Luna con la Tierra, por lo que su tiempo de rotación era similar al tiempo de traslación. Tarda 88 días solamente en dar una vuelta al Sol. No obstante, en el año 1965 fueron enviados unos impulsos a un radar con los que se pudo determinar que su tiempo de rotación son 58 días.
+    <value>¿Has escuchado acerca de la diosa romana Venus? Bueno, el nombre de este planeta fue otorgado en honor a esta deidad.
 
-Esto hace que dos terceras partes de su tiempo sea traslación. Esta situación se denomina resonancia orbital. Al tratarse de un planeta con una órbita mucho menor que el de la Tierra, hace que su cercanía al Sol sea mucha. Adquirió la categoría de planeta más pequeño de los ocho del sistema solar. Antes, Plutón era el más pequeño, pero tras considerarlo como planetoide es Mercurio el reemplazo.
+Es el segundo planeta más próximo al Sol y el más cercano a la Tierra; tanto, que es posible verlo a simple vista desde la superficie terrestre. Esto es también posible debido a que es el cuerpo celeste más brillante del Sistema Solar exceptuando el Sol y la luna.
 
-A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra gracias a su cercanía con el Sol. Es difícil de identificar por su brillo, pero se puede apreciar muy bien en el atardecer con la puesta de sol a oeste y justamente en el horizonte se puede ver con facilidad.
+Venus es un planeta rocoso, sin satélites y sin anillos. Se trata de un planeta extremo, caliente, seco y con una presión en la superficie 90 veces superior a la terrestre. Es de hecho el planeta más caliente de todos a pesar de no estar más cerca del Sol que Mercurio, y aunque sus dimensiones son muy similares a las de la Tierra, su atmósfera y composición hacen que la vida sea muy poco probable.
+
+Curiosamente, este planeta interno realiza una rotación en el sentido de las manecillas del reloj, es decir,  de este a oeste. Completa su órbita alrededor del Sol en 224 días y 17 horas terrestres o para fines prácticos, en 225 días. En ocasiones se aleja del astro rey mucho más que Mercurio, lo que ocasiona que preceda al Sol en poco más de tres horas. Un día en Venus dura 243 días terrestres.
 </value>
   </data>
 </root>

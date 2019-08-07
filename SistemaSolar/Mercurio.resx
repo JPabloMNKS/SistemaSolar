@@ -1524,12 +1524,15 @@
     <value>True</value>
   </metadata>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>En los tiempos más antiguos se presumía de que el planeta Mercurio estaba siempre de cara al Sol. De una forma similar a la Luna con la Tierra, por lo que su tiempo de rotación era similar al tiempo de traslación. Tarda 88 días solamente en dar una vuelta al Sol. No obstante, en el año 1965 fueron enviados unos impulsos a un radar con los que se pudo determinar que su tiempo de rotación son 58 días.
+    <value>Mercurio es el planeta inmediatamente más cercano al Sol y es también el más pequeño de todos los 8 grandes planetas; adquirió esta categoría después de la reclasificación de Plutón como un planeta enano. Su distancia al Sol es de 58 millones de kilómetros.
 
-Esto hace que dos terceras partes de su tiempo sea traslación. Esta situación se denomina resonancia orbital. Al tratarse de un planeta con una órbita mucho menor que el de la Tierra, hace que su cercanía al Sol sea mucha. Adquirió la categoría de planeta más pequeño de los ocho del sistema solar. Antes, Plutón era el más pequeño, pero tras considerarlo como planetoide es Mercurio el reemplazo.
+Tiene una órbita muy inclinada y muy elíptica. Es visible desde la Tierra sin telescopio o binoculares, pero debido a su proximidad con el Sol, es realmente difícil identificarlo pese a su brillantez. El mejor momento para hacerlo es después de la puesta del Sol hacia el oeste y junto al horizonte, o al alba hacia el este. Nunca justo en la noche.
 
-A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra gracias a su cercanía con el Sol. Es difícil de identificar por su brillo, pero se puede apreciar muy bien en el atardecer con la puesta de sol a oeste y justamente en el horizonte se puede ver con facilidad.
-</value>
+Mercurio es sólo un poco más grande que la Luna, el satélite natural de la Tierra. Ambos cuerpos celestes tienen una superficie cubierta de cráteres pero Mercurio tiene presencia de hielo. Debido a la delgadez de su capa atmosférica, sus temperaturas son extremas: durante el día pueden alcanzar los 427-430° Celsius y durante la noche -173 Celsius. Por esta razón, es muy poco probable que exista alguna forma de vida ahí.
+
+Completa una órbita alrededor del Sol en 88 días y tiene un período de rotación sideral de 58.646 días o 1407.5 horas, tomando como base el tiempo terrestre. Por ende, un día en Mercurio equivale a aproximadamente 59 días de la Tierra y 1 año de Mercurio dura tanto como 88 días terrestres. Anteriormente se creía que siempre exponía la misma cara al Sol, pero en el año 1965 los científicos se dieron cuenta de que gira 3 veces durante cada 2 órbitas. Mercurio viaja a través del espacio unos 50 kilómetros por segundo más rápido que los demás planetas.
+
+Mercurio es uno de los planetas interiores ya que pertenece al grupo de los cuatro planetas más cercanos al Sol y se encuentra antes de la región del Cinturón de asteroides. No posee satélites ni anillos.</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

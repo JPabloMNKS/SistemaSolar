@@ -126,7 +126,7 @@
     <value>MS UI Gothic, 15.75pt</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1181, 27</value>
+    <value>1181, 17</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 33</value>
@@ -154,10 +154,10 @@
     <value>Bottom</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 670</value>
+    <value>0, 698</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1386, 100</value>
+    <value>1386, 72</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1826,7 +1826,7 @@
     <value>1131, 0</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 670</value>
+    <value>255, 698</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2342,7 +2342,7 @@ A pesar de su tamaño tan pequeño, se puede ver sin telescopio desde la Tierra 
     <value>0, 0</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1131, 670</value>
+    <value>1131, 698</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>

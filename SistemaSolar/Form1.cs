@@ -33,6 +33,8 @@ namespace SistemaSolar
                 label1.Visible = true;
                 label1.Text = "SOL";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
+                pictureBox2.Visible = true;
+                pictureBox2.Load("sol09.gif");
             }
             else if (e.X >= 138 && e.X <= 171 && e.Y >= 350 && e.Y <= 375)
             {
@@ -40,6 +42,8 @@ namespace SistemaSolar
                 label1.Visible = true;
                 label1.Text = "MERCURIO";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
+                pictureBox2.Visible = true;
+                pictureBox2.Load("mercurio01.gif");
             }
             else if (e.X >= 198 && e.X <= 255 && e.Y >= 340 && e.Y <= 383)
             {
@@ -47,6 +51,8 @@ namespace SistemaSolar
                 label1.Visible = true;
                 label1.Text = "VENUS";
                 label1.Location = new Point(e.X + 25, e.Y + 25);
+                pictureBox2.Visible = true;
+                pictureBox2.Load("venus03.gif");
             }
             else if (e.X >= 288 && e.X <= 355 && e.Y >= 336 && e.Y <= 384)
             {
@@ -94,6 +100,7 @@ namespace SistemaSolar
             {
                 this.Cursor = Cursors.Default;
                 label1.Visible = false;
+                pictureBox2.Visible = false;
             }
         }
 
