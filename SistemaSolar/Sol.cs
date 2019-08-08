@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SistemaSolar
@@ -15,7 +8,7 @@ namespace SistemaSolar
         public Sol()
         {
             InitializeComponent();
-            if(Program.conectado == "no")
+            if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;
                 button2.Visible = false;
@@ -45,7 +38,7 @@ namespace SistemaSolar
         {
             Tierra tierra = new Tierra();
             tierra.Show();
-            this.Close();    
+            this.Close();
         }
 
         private void Marte(object sender, EventArgs e)

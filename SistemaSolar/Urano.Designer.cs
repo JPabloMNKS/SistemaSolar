@@ -43,6 +43,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btn = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -170,11 +174,48 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel1.Controls.Add(this.richTextBox4);
+            this.panel1.Controls.Add(this.richTextBox3);
+            this.panel1.Controls.Add(this.richTextBox2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Controls.Add(this.btn);
             this.panel1.Controls.Add(this.webBrowser1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Name = "panel1";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox4, "richTextBox4");
+            this.richTextBox4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox3, "richTextBox3");
+            this.richTextBox3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.richTextBox2, "richTextBox2");
+            this.richTextBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Name = "label1";
             // 
             // richTextBox1
             // 
@@ -194,7 +235,7 @@
             // 
             resources.ApplyResources(this.webBrowser1, "webBrowser1");
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/Mercurio_(planeta)", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("https://es.wikipedia.org/wiki/Urano_(planeta)", System.UriKind.Absolute);
             // 
             // pictureBox1
             // 
@@ -251,5 +292,9 @@
         private System.Windows.Forms.Button btn;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label1;
     }
 }

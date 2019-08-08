@@ -1,7 +1,6 @@
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe.config
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.exe
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\SistemaSolar.pdb
-E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csprojAssemblyReference.cache
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Form1.resources
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.Properties.Resources.resources
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.GenerateResource.cache
@@ -23,3 +22,4 @@ E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\bin\Debug\AxInterop.Sh
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\Interop.ShockwaveFlashObjects.dll
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
 E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csproj.ResolveComReference.cache
+E:\Codigos\clases de C# septimo\SistemaSolar\SistemaSolar\obj\Debug\SistemaSolar.csprojAssemblyReference.cache
