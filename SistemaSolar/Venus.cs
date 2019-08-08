@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Venus()
         {
             InitializeComponent();
+            Program.reproducir("venus");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;
@@ -66,6 +67,5 @@ namespace SistemaSolar
             neptuno.Show();
             this.Close();
         }
-
     }
 }

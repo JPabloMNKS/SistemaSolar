@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Mercurio()
         {
             InitializeComponent();
+            Program.reproducir("mercurio");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

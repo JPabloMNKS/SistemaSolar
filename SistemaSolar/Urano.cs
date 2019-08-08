@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Urano()
         {
             InitializeComponent();
+            Program.reproducir("urano");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

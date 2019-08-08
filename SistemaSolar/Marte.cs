@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Marte()
         {
             InitializeComponent();
+            Program.reproducir("marte");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

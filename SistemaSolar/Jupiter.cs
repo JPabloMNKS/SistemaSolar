@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Jupiter()
         {
             InitializeComponent();
+            Program.reproducir("jupiter");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

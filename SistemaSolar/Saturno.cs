@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Saturno()
         {
             InitializeComponent();
+            Program.reproducir("saturno");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

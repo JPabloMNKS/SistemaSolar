@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Neptuno()
         {
             InitializeComponent();
+            Program.reproducir("neptuno");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Tierra()
         {
             InitializeComponent();
+            Program.reproducir("tierra");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Media;
 
 namespace SistemaSolar
 {
@@ -17,6 +18,7 @@ namespace SistemaSolar
             Application.Run(new Form1());
         }
         public static string conectado;
+        
         public static void ProbarConexion()
         {
             System.Uri Url = new System.Uri("http://www.google.com/");
@@ -36,6 +38,13 @@ namespace SistemaSolar
                 webRequest = null;
                 conectado = "no";
             }
+        }
+
+        public static void reproducir(string nombre)
+        {
+            SoundPlayer sps = new SoundPlayer();
+            sps.SoundLocation = nombre + "w.wav";
+            sps.Play();
         }
     }
 }

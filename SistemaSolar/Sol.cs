@@ -8,6 +8,7 @@ namespace SistemaSolar
         public Sol()
         {
             InitializeComponent();
+            Program.reproducir("sol");
             if (Program.conectado == "no")
             {
                 webBrowser1.Visible = false;
